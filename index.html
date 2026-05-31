@@ -12,5 +12,50 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>Convert Money</title>
   </head>
-  <body></body>
+  <body>
+    <img class="logo" src="assets/images/logo.gif" alt="logo-convet-money" />
+    <main>
+      <label for="">
+        Converter <b>de</b>
+        <select name="" id="">
+          <option value="">R$ Real Brasileiro</option>
+        </select>
+      </label>
+
+      <label for="">
+        Converter <b>para</b>
+        <select name="" id="">
+          <option value="">US$ Dólar americano</option>
+          <option value="">€ Euro</option>
+        </select>
+      </label>
+
+      <label for="">
+        Valor
+        <input placeholder="R$ 10.000,00" />
+      </label>
+
+      <button>Converter</button>
+
+      <section>
+        <div class="currency-box">
+          <img src="assets/images/real.png" alt="logo-moeda-a-converter" />
+          <p class="currency">Real</p>
+          <p class="currency-value">R$ 0,00</p>
+        </div>
+
+        <img
+          class="arrow-img"
+          src="assets/images/arrow.png"
+          alt="seta-abaixo"
+        />
+
+        <div class="currency-box">
+          <img src="assets/images/dollar.png" alt="logo-moeda-convertida" />
+          <p class="currency">Dólar</p>
+          <p class="currency-value">US$ 0.0</p>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
